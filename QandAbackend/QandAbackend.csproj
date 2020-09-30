@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="SQLScripts\01-Tables.sql" />
     <None Remove="SQLScripts\02-Sprocs.sql" />
   </ItemGroup>
